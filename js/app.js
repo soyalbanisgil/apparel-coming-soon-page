@@ -1,0 +1,1 @@
+console.log('This is the second challenge from frontendmentor.io');

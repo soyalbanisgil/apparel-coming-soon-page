@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Josefin Sans Light;
+}
+
+.container {
+  width: 70%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  background-image: url(../images/bg-pattern-desktop.svg);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content img.hero-img {
+  width: 100%;
+  justify-self: end;
+}
+
+.logo {
+  margin: 4rem 0;
+  width: 200px;
+}
+
+@font-face {
+  font-family: Josefin Sans Light;
+  src: url(../fonts/JosefinSans-Light.ttf);
+}
+@font-face {
+  font-family: Josefin Sans Regular;
+  src: url(../fonts/JosefinSans-Regular.ttf);
+}
+h1 {
+  font-weight: 100;
+  font-size: 4.7rem;
+  text-transform: uppercase;
+  color: #ce9797;
+  letter-spacing: 10px;
+  margin-bottom: 1rem;
+}
+
+span {
+  font-family: Josefin Sans Regular;
+  color: #413a3a;
+  display: block;
+}
+
+p {
+  color: #ce9797;
+  font-family: Josefin Sans Regular;
+  width: 450px;
+}
+
+form {
+  display: flex;
+  margin-top: 2.5rem;
+}
+form input {
+  padding: 1rem 1.2rem;
+  border: solid 1px #ce97973f;
+  color: #ce9797;
+  border-radius: 50px;
+  width: 400px;
+  position: relative;
+  font-family: Josefin Sans Regular;
+  font-size: 1rem;
+  outline: none;
+}
+form ::placeholder {
+  color: #ce9797;
+}
+form .btn {
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border: none;
+  padding: 0.85rem 2.5rem;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(350px);
+}
+
+/*# sourceMappingURL=styles.css.map */

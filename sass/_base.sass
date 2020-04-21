@@ -1,0 +1,63 @@
+//COLORS
+$main-red: hsl(0, 36%, 70%)
+$soft-red: hsl(0, 93%, 68%)
+$dark-gray: hsl(0, 6%, 24%)
+$main-gradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%))
+$second-gradient: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%))
+
+//BASE CSS
+body
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-size: 16px
+    font-family: Josefin Sans Light
+
+.container
+    width:70%
+    max-width: 80%
+    margin: 0 auto
+
+.main-content
+    display: grid
+    grid-template-columns: 1.5fr 0.5fr
+    background-image: url(../images/bg-pattern-desktop.svg)
+
+.content
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    img.hero-img
+        width: 100%
+        justify-self: end
+
+.logo
+    margin: 4rem 0
+    width: 200px
+
+//FONTS
+@font-face
+    font-family: Josefin Sans Light
+    src: url(../fonts/JosefinSans-Light.ttf)
+
+@font-face
+    font-family: Josefin Sans Regular
+    src: url(../fonts/JosefinSans-Regular.ttf)
+
+h1
+    font-weight: 100
+    font-size: 4.7rem
+    text-transform: uppercase
+    color: $main-red
+    letter-spacing: 10px
+    margin-bottom: 1rem
+
+span
+    font-family: Josefin Sans Regular
+    color: $dark-gray
+    display: block
+
+p
+    color: $main-red
+    font-family: Josefin Sans Regular
+    width: 450px
